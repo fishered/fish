@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.fisher</groupId>
+        <artifactId>fish</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>fish-common</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>fish-common-biz</module>
+        <module>fish-common-exception</module>
+        <module>fish-common-auth</module>
+        <module>fish-common-constant</module>
+        <module>fish-common-dao</module>
+        <module>fish-common-es</module>
+        <module>fish-common-spring</module>
+        <module>fish-common-mongo</module>
+        <module>fish-common-oss</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
