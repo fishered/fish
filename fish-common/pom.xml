@@ -29,4 +29,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!-- 基础工具包 -->
+        <dependency>
+            <groupId>cn.fisher</groupId>
+            <artifactId>fish-util</artifactId>
+            <version>${fish.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>
