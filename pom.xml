@@ -39,6 +39,7 @@
         <fish.version>1.0-SNAPSHOT</fish.version>
         <spring-data-commons.version>2.7.0</spring-data-commons.version>
         <spring.redis>2.7.5</spring.redis>
+        <spring.redisson>3.17.7</spring.redisson>
         <hutool.version>5.8.6</hutool.version>
         <jjwt.version>0.11.5</jjwt.version>
 <!--        <satoken.version>1.34.0</satoken.version>-->

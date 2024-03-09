@@ -21,6 +21,7 @@
         <module>fish-common-spring</module>
         <module>fish-common-mongo</module>
         <module>fish-common-oss</module>
+        <module>fish-common-redis</module>
     </modules>
 
     <properties>
